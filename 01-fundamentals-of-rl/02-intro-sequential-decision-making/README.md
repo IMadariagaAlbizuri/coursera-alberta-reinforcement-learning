@@ -97,8 +97,8 @@ $$
 \sum_{n=1}^{\infty} \alpha_n^2(a) < \infty
 $$
 
-- 1st condition: steps are large enough to overcome initial conditions and random fluctuations.
-- 2nd condition: steps eventually become small enough to ensure convergence.
+- **1st condition**: steps are large enough to overcome initial conditions and random fluctuations.
+- **2nd condition**: steps eventually become small enough to ensure convergence.
 - $\alpha_n = 1/n$ (sample average) satisfies both. A constant $\alpha$ fails the 2nd one, which is **desirable** in nonstationary problems: the estimates never fully converge and keep tracking the latest rewards.
 
 ## Optimistic initial values
